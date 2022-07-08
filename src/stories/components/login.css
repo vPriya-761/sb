@@ -1,0 +1,99 @@
+* {
+  color: #f7f5f4;
+}
+
+form {
+  border-radius: 10px;
+  border: 1px #ddd solid;
+  background-image: linear-gradient(
+    to bottom,
+   #5535B7,
+    #C483Da
+  );
+}
+.ant-btn:hover,
+.ant-btn:focus {
+  background: none !important;
+}
+.ant-btn{
+    min-height: 40px;
+}
+
+.sign {
+  font-weight: 900;
+  margin-left: 5px;
+  cursor: pointer;
+}
+.signup {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 90px;
+  margin-bottom: 20px;
+}
+
+.input {
+  background-color:rgb(150, 98, 218);
+  border: none;
+
+}
+.ant-input-affix-wrapper {
+  padding: 10px;
+}
+.login-form {
+  max-width: 350px;
+  margin-left: 400px;
+
+  padding: 20px;
+}
+input:not([type='range']) {
+  color: #f7f5f4;
+  padding: 10px;
+}
+
+.ant-input-affix-wrapper > input.ant-input {
+  background: transparent;
+}
+
+.ant-col-rtl .login-form-forgot {
+  float: left;
+}
+.login-form-button {
+  width: 100%;
+  background: transparent;
+  border-color: #dbd1e9;
+}
+.anticon svg {
+  color: #f7f5f4;
+}
+.ant-form-item-control-input-content {
+  color: #f7f5f4;
+}
+.ant-divider-inner-text {
+  color: #f7f5f4;
+}
+
+.facebook {
+  font-size: 20px;
+}
+
+.connect {
+  align-items: center;
+  font-size: 15px;
+  padding-left: 10px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+/* .ant-divider{
+  background-color: white;
+ 
+} */
